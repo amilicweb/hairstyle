@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HairStyle | Aleksandar Milic</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-md nav-dark" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">HairStyle.</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="intro">
+      <div id="intro-inner" class="container">
+        <h3>Welcome</h3>
+        <h1>
+          Hairstyle like <br />
+          every man
+          <span class="box-white-outline">deserve</span>
+        </h1>
+
+        <a href="#services" class="btn btn-white-outline">services</a>
+        <a href="#gallery" class="btn btn-white">gallery</a>
+      </div>
+      <div id="intro-social">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <h1 class="heading">About us</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="svgs/barber.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 p-30">
+            <h3>Who are we?</h3>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+            <h3>What we do?</h3>
+            <p>
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters.
+            </p>
+
+            <a href="#services" class="btn btn-black">our services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h1 class="heading">Services</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service">
+              <h4 class="service-number">#1</h4>
+              <h3 class="service-name">Haircut</h3>
+              <h2 class="service-price">25$</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service border-lr">
+              <h4 class="service-number">#2</h4>
+              <h3 class="service-name">Beard trim</h3>
+              <h2 class="service-price">15$</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+              <h4 class="service-number">#3</h4>
+              <h3 class="service-name">Haircut & Beard trim</h3>
+              <h2 class="service-price">40$</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service">
+              <h4 class="service-number">#4</h4>
+              <h3 class="service-name">Shave</h3>
+              <h2 class="service-price">20$</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service border-lr">
+              <h4 class="service-number">#5</h4>
+              <h3 class="service-name">Haircut & Shave</h3>
+              <h2 class="service-price">45$</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service">
+              <h4 class="service-number">#6</h4>
+              <h3 class="service-name">Full treatment</h3>
+              <h2 class="service-price">70$</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h1 class="heading">Gallery</h1>
+
+        <div id="gallery-inner">
+          <div class="flex-row">
+            <div class="gallery-item img-md" id="gallery-img1"></div>
+            <div class="gallery-item img-lg" id="gallery-img2"></div>
+            <div class="gallery-item img-md" id="gallery-img3"></div>
+          </div>
+          <div class="flex-row">
+            <div class="gallery-item img-lg mt--85" id="gallery-img4"></div>
+            <div class="gallery-item img-lg" id="gallery-img5"></div>
+            <div class="gallery-item img-lg mt--85" id="gallery-img6"></div>
+          </div>
+          <div class="flex-row">
+            <div class="gallery-item img-md mt--85" id="gallery-img7"></div>
+            <div class="gallery-item img-lg" id="gallery-img8"></div>
+            <div class="gallery-item img-md mt--85" id="gallery-img9"></div>
+          </div>
+          <div class="flex-row justify-between">
+            <div class="gallery-item img-md mt--180" id="gallery-img10"></div>
+            <div class="gallery-item img-md" id="gallery-img12"></div>
+            <div class="gallery-item img-md mt--180" id="gallery-img11"></div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-black">contact us</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1 class="heading">Contact</h1>
+
+        <form id="contact-form">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="svgs/email.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-7 p-30">
+              <p>If you have any question, please send us an email.</p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <textarea placeholder="Message" class="form-control"></textarea>
+              <button type="button" class="btn btn-black float-right">
+                send email
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <p>
+            &copy;2020 &bull; Designed by
+            <a
+              href="https://instagram.com/_aca_milic"
+              class="underline"
+              target="_blank"
+              >Aleksandar Milic</a
+            >
+            • All Right Reserved.
+          </p>
+          <p class="footer-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/_aca_milic"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
