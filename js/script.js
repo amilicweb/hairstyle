@@ -8,7 +8,7 @@ $(document).on('click', 'a[href^="#"]', function(event) {
     800
   );
 
-  $('.navbar-toggler').click();
+  if ($(window).width() < 758) $('.navbar-toggler').click();
 });
 
 $(function() {
