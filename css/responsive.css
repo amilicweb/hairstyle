@@ -94,6 +94,14 @@
     font-size: 16px;
   }
 
+  #intro {
+    background-position: center;
+  }
+
+  #services {
+    background-position: center;
+  }
+
   #intro-social {
     position: absolute;
     bottom: 50px;
@@ -175,7 +183,7 @@
   }
 
   .footer-social {
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
