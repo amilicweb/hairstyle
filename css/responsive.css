@@ -1,0 +1,188 @@
+/* Ipad pro */
+@media (max-width: 1200px) {
+  .nav-link {
+    margin-right: 25px;
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  section {
+    min-height: 50vh;
+  }
+
+  .box-white-outline {
+    border: none;
+    padding: 0;
+  }
+
+  #intro-inner h1 {
+    line-height: 70px;
+    margin-bottom: 35px;
+  }
+  #intro-inner h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 12px 26px;
+    font-size: 26px;
+  }
+
+  #intro-social i {
+    font-size: 56px;
+    margin-right: 70px;
+  }
+
+  .heading {
+    font-size: 56px;
+  }
+
+  #contact-form img {
+    margin-bottom: 20px;
+  }
+}
+
+/* Ipad */
+@media (max-width: 992px) {
+  .nav-link {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  #intro-social i {
+    font-size: 42px;
+    margin-right: 50px;
+  }
+}
+
+/* Tables */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 5px;
+    background: #000;
+  }
+
+  .navbar-brand {
+    font-size: 28px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 5px 20px;
+  }
+  #intro h3 {
+    font-size: 24px;
+  }
+  #intro h1 {
+    font-size: 42px;
+    line-height: 44px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 8px 22px;
+    font-size: 16px;
+  }
+
+  #intro-social {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    right: unset;
+    width: 40%;
+  }
+
+  #intro-social i {
+    font-size: 32px;
+    margin-right: 0;
+  }
+
+  /* Service */
+  #services .row {
+    margin-bottom: 50px;
+  }
+
+  .border-lr {
+    border: none;
+  }
+
+  .border-b {
+    border-bottom: 1px solid #7f7c7c;
+  }
+
+  .service {
+    text-align: center;
+    padding: 45px 0;
+  }
+
+  .service-number {
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  .service-name {
+    font-weight: 300;
+    font-size: 28px;
+  }
+
+  .service-price {
+    font-weight: 700;
+    font-size: 42px;
+  }
+
+  .heading {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .flex-row {
+    flex-wrap: wrap;
+  }
+
+  .gallery-item {
+    margin: 20px 0;
+  }
+
+  #gallery-img12 {
+    display: none !important;
+  }
+
+  .flex-row:last-child {
+    height: 650px;
+  }
+
+  #gallery {
+    padding-bottom: 0;
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5px 0;
+  }
+
+  .footer-social {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .footer-social i {
+    font-size: 36px;
+    color: #000;
+  }
+}

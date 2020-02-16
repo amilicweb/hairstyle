@@ -21,6 +21,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body id="home">
     <nav class="navbar navbar-expand-md nav-dark" id="navbar">
@@ -33,7 +34,9 @@
           data-toggle="collapse"
           data-target="#collapsibleNavbar"
         >
-          <span class="navbar-toggler-icon"></span>
+          <div class="bar-one"></div>
+          <div class="bar-two"></div>
+          <div class="bar-three"></div>
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -71,9 +74,11 @@
         <a href="#gallery" class="btn btn-white">gallery</a>
       </div>
       <div id="intro-social">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter"></i>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="https://instagram.com/_aca_milic"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
       </div>
     </div>
 
@@ -81,10 +86,10 @@
       <div class="container">
         <h1 class="heading">About us</h1>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img src="svgs/barber.svg" class="img-fluid" alt="" />
           </div>
-          <div class="col-md-6 p-30">
+          <div class="col-lg-6 p-30">
             <h3>Who are we?</h3>
             <p>
               It is a long established fact that a reader will be distracted by
@@ -107,21 +112,21 @@
         <h1 class="heading">Services</h1>
         <div class="row">
           <div class="col-md-4">
-            <div class="service">
+            <div class="service border-b">
               <h4 class="service-number">#1</h4>
               <h3 class="service-name">Haircut</h3>
               <h2 class="service-price">25$</h2>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service border-lr">
+            <div class="service border-lr border-b">
               <h4 class="service-number">#2</h4>
               <h3 class="service-name">Beard trim</h3>
               <h2 class="service-price">15$</h2>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service">
+            <div class="service border-b">
               <h4 class="service-number">#3</h4>
               <h3 class="service-name">Haircut & Beard trim</h3>
               <h2 class="service-price">40$</h2>
@@ -130,14 +135,14 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="service">
+            <div class="service border-b">
               <h4 class="service-number">#4</h4>
               <h3 class="service-name">Shave</h3>
               <h2 class="service-price">20$</h2>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="service border-lr">
+            <div class="service border-lr border-b">
               <h4 class="service-number">#5</h4>
               <h3 class="service-name">Haircut & Shave</h3>
               <h2 class="service-price">45$</h2>
@@ -191,10 +196,10 @@
 
         <form id="contact-form">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-lg-5">
               <img src="svgs/email.svg" class="img-fluid" alt="" />
             </div>
-            <div class="col-md-7 p-30">
+            <div class="col-lg-7 p-30">
               <p>If you have any question, please send us an email.</p>
 
               <div class="row">
