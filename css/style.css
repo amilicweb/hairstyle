@@ -103,6 +103,10 @@ section {
   z-index: 2;
 }
 
+#intro-inner {
+  z-index: 3;
+}
+
 #intro-inner h3 {
   font-weight: 300;
   color: #fff;
@@ -127,6 +131,7 @@ section {
   position: absolute;
   bottom: 50px;
   right: 50px;
+  z-index: 3;
 }
 
 #intro-social i {
@@ -217,6 +222,11 @@ section {
   background: url('../images/service-bg.jpg') no-repeat center;
   background-size: cover;
   color: #fff;
+  position: relative;
+}
+
+.dark-overlay {
+  display: none;
 }
 
 #services .row {
