@@ -17,4 +17,23 @@ $(function() {
     wrapAround: true,
     disableScrolling: true
   });
+
+  var toggler = $('#toggler');
+
+  var counter = 1;
+  toggler.click(function() {
+    var bars = $('.bar');
+
+    if (counter % 2 == 0) {
+      bars.removeClass('full-width');
+      $('#barTwo').addClass('second');
+      $('#barThree').addClass('third');
+      counter = 1;
+    } else {
+      $('#barTwo').removeClass('second');
+      $('#barThree').removeClass('third');
+      bars.addClass('full-width');
+      counter = 2;
+    }
+  });
 });
